@@ -47,6 +47,17 @@ html{
      color: white;
  }
 
+ .certifications
+ {
+    line-height: 2;
+    margin-left: 25%;
+    font-size: large;
+ }
+ 
+ li li
+ {
+     margin-left: 5%;
+ }
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -73,15 +84,23 @@ section{
     margin: auto;
 }
 
-.skills-head
+.skills-head 
 {
     text-decoration-line: underline;
     color: #111;
-    font: bold;
+    font-weight: 600;
 }
 
 .blue{
     color: #15f4ee;
+}
+
+.blue-h2
+{
+    text-align: center;
+    color: #15f4ee;
+    font: bold;
+    font-size: x-large;
 }
 
 
@@ -358,10 +377,14 @@ section .title::after{
 .skills .title::after{
     content: "what i know";
 }*/
+.col
+{
+    width: calc(50% - 30px);
+}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
-/*.skills .skills-content .left .text{
+.skills .skills-content .left .text span{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -384,7 +407,7 @@ section .title::after{
 .skills .skills-content .left a:hover{
     color: #15f4ee;
     background: none;
-}*/
+}
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
