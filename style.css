@@ -11,6 +11,43 @@ html{
     scroll-behavior: smooth;
 }
 
+.follow{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.follow-me-icons {
+    font-size: 30px;
+  }
+  .follow-me-icons-home {
+    margin-bottom: 0%;
+    margin-top: 100px;
+    color: #fff;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  .follow-me-icons i{
+    color: #ccc;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  .frame
+  {
+      border: none;
+      align-items: center;
+  }
+
+  .project-sub
+  {
+    font: italic;
+    font-size: small;
+  }
+
+ .white a:link{
+     color: white;
+ }
+
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -35,6 +72,19 @@ section{
     padding: 0 150px;
     margin: auto;
 }
+
+.skills-head
+{
+    text-decoration-line: underline;
+    color: #111;
+    font: bold;
+}
+
+.blue{
+    color: #15f4ee;
+}
+
+
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
@@ -61,7 +111,7 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    width: auto;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
@@ -215,9 +265,9 @@ section .title::after{
 }
 
 /* about section styling */
-.about .title::after{
+/*.about .title::after{
     content: "who i am";
-}
+}*/
 .about .about-content .left{
     width: 45%;
 }
@@ -270,7 +320,6 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -305,14 +354,14 @@ section .title::after{
 }
 
 /* skills section styling */
-
+/*
 .skills .title::after{
     content: "what i know";
-}
+}*/
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
-.skills .skills-content .left .text{
+/*.skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -335,7 +384,7 @@ section .title::after{
 .skills .skills-content .left a:hover{
     color: #15f4ee;
     background: none;
-}
+}*/
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
@@ -380,9 +429,9 @@ section .title::after{
 }
 
 /* teams section styling */
-.teams .title::after{
+/*.teams .title::after{
     content: "who with me";
-}
+}*/
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -443,9 +492,9 @@ section .title::after{
 }
 
 /* contact section styling */
-.contact .title::after{
+/*.contact .title::after{
     content: "get in touch";
-}
+}*/
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -657,9 +706,9 @@ footer span a:hover{
         font-size: 27px;
     }
     .about .about-content .right .text,
-    .skills .skills-content .left .text{
+    /*.skills .skills-content .left .text{
         font-size: 19px;
-    }
+    }*/
     .contact .right form .fields{
         flex-direction: column;
     }

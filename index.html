@@ -12,7 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-
+	<!-- Icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
     <div class="scroll-up-btn">
@@ -24,9 +25,9 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#edu" class="menu-btn">Education</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -40,7 +41,15 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-2"><span>I'm </span>Manmeet Singh Khanna</div>
-                <div class="text-3">I'm interested in <span class="typing"></span></div>
+                <div class="text-3" >I'm interested in <span class="typing"></span></div><br><br><br>
+                <div>
+                    <p class="follow-me-icons-home">
+                        <a href="https://github.com/Mskhanna"><i class="fa fa-github fa-2"></i></a>
+                        <a href="https://linkedin.com/in/manmeet8400"><i class="fa fa-linkedin fa-2"></i></a>
+                        <a href="https://www.instagram.com/manmeet_khanna"><i class="fa fa-instagram fa-2"></i></a>
+                        <a href="https://www.youtube.com/channel/UCF_ksQ9eM18bY09WskXYZAw/videos"><i class="fa fa-youtube fa-2"></i></a>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -51,7 +60,7 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/profile-1.jpeg" alt="">
+                    <img src="images/profile.jpeg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Manmeet Singh Khanna</div>
@@ -59,19 +68,36 @@
                         I am able to handle multiple tasks on a daily basis. I use a creative
                          approach to solve problems. I am a dependable person who is great at 
                          time management. I am always energetic and eager to learn new skills.</p>
-                    <a href="#">Download CV</a>
+                    <a href="https://drive.google.com/file/d/14BEcaqREdC9tJBSNGeluilKD9fN2RO6S/view?usp=sharing">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- services section start -->
-    <section class="services" id="services">
+    <section class="services" id="edu">
         <div class="max-width">
-            <h2 class="title">My services</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
+            <h2 class="title">Education</h2>
+            <div class="about-content">
+               <!-- <div class="column left">
+                    <img src="images/profile.jpeg" alt="">
+                </div>-->
+                <div class="column right">
+                    <p><b><div class="blue">George Mason University - Fairfax, VA</div></b>
+                        <i>Master's in Computer Science | August 2021 - Present (Expected Graduation May 2023)</i><br>
+                        • Current GPA - 3.44/4 <br>
+                        • Current Courses - Theory and Applications of Data Mining, Component Based Software Development, System's Programming.<br>
+                        <br><b><div class="blue">Don Bosco Institute of Technology, Mumbai University</div></b>
+                        <i>Degree in Computer Engineering | June 2017 - May 2021 </i><br>
+                        • Completed an undergraduate degree in computer engineering.<br>
+                        •  CGPA 7.5/10. Graduated with distinction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+                 <!--<div class="card">
+                   <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
@@ -90,7 +116,7 @@
                         <div class="text">Apps Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                     </div>
-                </div>
+                </div>-->
                </div>
             </div>
         </div>
@@ -99,15 +125,23 @@
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My skills</h2>
+            <h2 class="title">Technical Skills</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                    <a href="#">Read more</a>
+                    <ul> <li><span class="skills-head">Programming Languages:</span> Python, C, R, Java, C#, Node.js</li><br>  
+                        <li><span class="skills-head">Website Development:</span> HTML5, CSS, JS, Bootstrap, PhpMyAdmin</li><br>
+                        <li><span class="skills-head">Data Science:</span> Pandas, Sci-Kit Learn, Matplotlib, Numpy, KNN, 
+                        Seaborn, SVM, Naive Bayes, Logistic Regression, CNN, Decision Trees, 
+                        ANN, Random Forest, XGBoost, LGBoost, Hadoop.</li>
+                    </ul>
                 </div>
                 <div class="column right">
-                    <div class="bars">
+                    <ul>  <li><span class="skills-head">DevOps:</span> Kubernetes, Docker, RESTful API, Kafka, CI/CD (Jenkins),
+                        Amazon Web Services (EC2, E3), Google Cloud Platform. </li><br>
+                        <li><span class="skills-head">Database:</span> MySQL, Oracle, MongoDB, Google Firebase</li><br>
+                        <li><span class="skills-head">IDE:</span> Eclipse, Visual Studio, Jupyter Notebooks, Android Studio, PyCharm, Unity, Dremweaver, Animate, Photoshop. </li>
+                    </ul>
+                    <!--<div class="bars">
                         <div class="info">
                             <span>HTML</span>
                             <span>90%</span>
@@ -149,21 +183,77 @@
                         </div>
                         <div class="line mysql"></div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
 
-    <!-- teams section start -->
+    
+<!-- services section start -->
+<section class="services" id="projects">
+    <div class="max-width">
+        <h2 class="title">My Projects</h2>
+        <div class="serv-content">
+            <div class="column right">
+                <p><b><div class="blue">ML-Based Smart Shopping System with Recipe Recommendation and Personalized Indicator</div></b>
+                    <span class="project-sub"><i>Jun 2020 – Apr 2021 (Group of three members)</i></span>
+                    <p>Built a system for replacing queues in the shopping marts which included:
+                        <ul>
+                            <li>A Mobile Application - (Realtime SignUp and Login with OTP Verification) using Android Studio and Google Firebase.</li>
+                            <li>An Interface for Employees - PhpMyAdmin for User Purchases and Employee Data.</li>
+                            <li>Recipe Recommendation System using SVM (Dataset of over 80,000 recipes), Collaborative Filtering Based Suggestions.</li>
+                            <li>Presented at The International Conference on Communication, Information & Computing Technology.
+                            <li>Published on <a class="white" href="https://ieeexplore.ieee.org/document/9509938">IEEE</a></li> </p><br>
+                        </ul>
+                        <p align="center"><iframe width="640" height="360" style="border: none;"
+                        src="https://www.youtube.com/embed/3QDtgtXdarI">
+                        </iframe></p><br><br>
+                <p><b><div class="blue">Car Insurance Fraud Detection</div></b>
+                        <span class="project-sub"><i>Oct 2021 - Dec 2021(Group of two members)</i></span>
+                            <ul>
+                            <li>Built various models with - Random Forest, One Class SVM, Isolation Forest, Light GBM</li>
+                            <li>Used a dataset with all the necessary details about the accident and the individual involved along with personal details. </li>
+                            <li>Visualization techniques used for detecting and analyzing fraudulent automotive insurance claims.</li>
+                            <li>Available on <a href="https://github.com/aniket414/car-insurance-fraud">GitHub</a></li>
+                        </p><br>
+                        <p align="center"><iframe width="640" height="360" style="border: none;"
+                            src="https://www.youtube.com/embed/_w_ecHMzbD8">
+                            </iframe></p><br><br>
+                            </ul>
+                <p><b><div class="blue">Plasma Donation Management System</div></b>
+                        <span class="project-sub"><i>Jan 2021 - April 2021(Group of two members) </i></span>
+                            <ul>
+                            <li>The web interface for the project is made by using different tools such as HTML, CSS and JavaScript.</li>
+                            <li>Made use of a cloud service - MongoDB Atlas, to store the patients details and information</li>
+                            <li>Implemented a middleware using Node.js Express</li>
+                        </p><br>
+                            </ul>
+                <p><b><div class="blue">Langauge Detection Model</div></b>
+                        <span class="project-sub"><i>Aug 2020 - Oct 2020 (Individual) </i></span>
+                            <ul>
+                            <li>Built a Naive-Bayes model for detecting Multi-Lingual language text for 17 different languages</li>
+                            <li>Accuracy of approximately 97%.</li>
+                            <li>Available on <a href="https://github.com/Mskhanna/Language-Detection-Model">GitHub</a></li>
+                        </p><br>
+                            </ul>
+                  
+            </div>
+        </section>
+    <!-- teams section start
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">My teams</h2>
+            <h2 class="title">Education</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-1.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>George Mason University - Fairfax, VA 
+                            Master's in Computer Science | August 2021 - Present (Expected Graduation June 2023) 
+                            Current GPA - 3.44/4 
+                            Current Courses - Theory and Applications of Data Mining, Component Based Software Development, System's Programming. Don Bosco Institute of Technology, Mumbai University 
+                            Degree in Computer Engineering | June 2017 - May 2021 
+                            Completed an undergraduate degree in computer engineering: CGPA 7.5/10. Graduated with distinction.</p>
                     </div>
                 </div>
                 <div class="card">
@@ -196,7 +286,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- contact section start -->
     <section class="contact" id="contact">
@@ -205,31 +295,45 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                    <p> In case you liked my Portfolio, feel free to reach out to me, I'll be more than happy to connect.</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
-                                <div class="head">Manmeet Singh Khanna</div>
+                                <div class="head">Name</div>
+                                <div class="sub-title">Manmeet Singh Khanna</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
-                                <div class="head">VA, USA</div>
+                                <div class="head">Location</div>
+                                <div class="sub-title">VA, USA</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
-                                <div class="head">mkhanna2@gmu.edu</div>
+                                <div class="head">Email</div>
+                                <div class="sub-title">mkhanna2@gmu.edu</div>
+                            </div>
+                        </div>
+                        <div>
+                            <br><h3 >Follow me</h3>
+                            <div>
+                                <p class="follow-me-icons">
+                                    <a href="https://github.com/Mskhanna"><i class="fa fa-github fa-2"></i></a>
+                                    <a href="https://linkedin.com/in/manmeet8400"><i class="fa fa-linkedin fa-2"></i></a>
+                                    <a href="https://www.instagram.com/manmeet_khanna"><i class="fa fa-instagram fa-2"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCF_ksQ9eM18bY09WskXYZAw/videos"><i class="fa fa-youtube fa-2"></i></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="contact.php">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -255,7 +359,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        Created By<span style="color: #15f4ee;"> Manmeet Singh Khanna</span>
     </footer>
 
     <script src="script.js"></script>
