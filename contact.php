@@ -5,7 +5,7 @@
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_form = '2manmeetkhana@gmail.com';
+    $email_from = 'gemaydphxppxisjkvl@nvhrw.com';
 
     $email_subject = $_POST['subject'];
 
@@ -14,7 +14,7 @@
                     "User Message: $message.\n"
 
 
-    $to = "mkhanna2@gmu.edu"
+    $to = "gemaydphxppxisjkvl@nvhrw.com"
 
     $headers = "From: $email_from \r\n";
 
