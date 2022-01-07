@@ -751,3 +751,18 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+/*Thank You Page CSS*/
+
+.thanks-text
+{
+    font-size: 50px;
+    color: #15f4ee;
+}
+
+.background-thanks
+{
+    background-color: #111;
+    align-items: center;
+
+}
