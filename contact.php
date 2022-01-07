@@ -1,26 +1,20 @@
 <?php
-echo"Under Construction"
-    $name = $_POST['name'];
-    $visitor_email = $_POST['email'];
-    $message = $_POST['message'];
 
-    $email_form = '2manmeetkhana@gmail.com';
+    if(isset($_POST['submit'])
+    {
+        $name = $_POST['name'];
+        $email_from = $_POST['email'];
+        $message = $_POST['message'];
+        $email_subject = $_POST['subject'];
 
-    $email_subject = $_POST['subject'];
+        $to = "mkhanna2@gmu.edu";
+       
+        $headers = "From: ".$email_from;
 
-    $email_body =   "User Name: $name.\n"
-                    "User Email: $visitor_email.\n"
-                    "User Message: $message.\n"
-
-
-    $to = "mkhanna2@gmu.edu"
-
-    $headers = "From: $email_from \r\n";
-
-    $headers .= "Reply-To: $visitor_email \r\n"
-
-    mail($to,$email_subject,$email_body,$headers);
-
-    header("Location: index.html");
+        $txt =   "You have received an email from" .$name.".\n\n" .$message;
+   
+        mail($to,$email_subject,$txt,$headers);
+        header("Location: index.html?mailsend");
     
+    }
 ?>
