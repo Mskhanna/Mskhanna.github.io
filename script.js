@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
-        if(this.scrollY > 20){
+        if(this.scrollY > 300){
             $('.navbar').addClass("sticky");
         }else{
             $('.navbar').removeClass("sticky");
@@ -35,9 +35,10 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Computer Science", "Data Science", "Software Engineering", "Web Development","Machine Learning"],
+        strings: ["Software Engineering", "Web Development", "Computer Science", "Data Science"],
         typeSpeed: 100,
         backSpeed: 60,
+        backDelay: 300,
         loop: true
     });
 
