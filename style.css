@@ -722,6 +722,7 @@ footer span a:hover{
     justify-content: center;
     height: 100%;
     width: 100%;
+    
     }
 .port-image img{
     width: 100%;
@@ -747,7 +748,6 @@ footer span a:hover{
 }
 
 .port-content h3{
-    font-size: 1.5rem;
     font-weight: 600;
 }
 
