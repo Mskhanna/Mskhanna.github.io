@@ -35,7 +35,11 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["Java Full Stack", "React Framework", "Data Science"],
+    strings: [
+      "Front End Development",
+      "Full Stack Development",
+      "React Framework",
+    ],
     typeSpeed: 100,
     backSpeed: 60,
     backDelay: 300,
